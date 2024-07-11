@@ -1,11 +1,8 @@
 using dotnetAuthentications.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
-using System.Reflection.Metadata;
 
 var builder = WebApplication.CreateBuilder(args);
 
